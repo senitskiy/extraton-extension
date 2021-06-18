@@ -33,6 +33,14 @@ const _ = {
         isDev: true,
         account: {balance: null, codeHash: null},
       },
+      {
+        id: 3,
+        server: 'gql.custler.net', 
+        explorer: 'fld.ton.live',
+        info: 'FLD network',
+        isDev: true,
+        account: {balance: null, codeHash: null},
+      },      
     ];
     const params = [
       {key: 'wallet', value: null},
