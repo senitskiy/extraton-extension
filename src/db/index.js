@@ -40,7 +40,15 @@ const _ = {
         info: 'FLD network',
         isDev: true,
         account: {balance: null, codeHash: null},
-      },      
+      },   
+      {
+        id: 4,
+        server: 'rustnet.ton.dev', 
+        explorer: 'rustnet.ton.live',        
+        info: 'RUST network',
+        isDev: true,
+        account: {balance: null, codeHash: null},
+      },                   
     ];
     const params = [
       {key: 'wallet', value: null},
